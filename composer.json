@@ -11,11 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Meast\\Router": "src"
+            "Meast\\Router\\": "src"
         }
     },
     "minimum-stability": "dev",
     "require": {
         "symfony/http-foundation": "5.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.x-dev"
     }
 }
