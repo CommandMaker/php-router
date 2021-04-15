@@ -1,0 +1,21 @@
+{
+    "name": "command_maker/php-router",
+    "description": "A simple PHP router",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CommandMaker",
+            "email": "command.maker83@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Meast\\Router": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "5.x-dev"
+    }
+}
